@@ -1103,7 +1103,7 @@ img.block {
 @media screen and (max-width: 749px) {
   .main {
     width: 100%;
-    padding: 35px 15px;
+    padding: 100px 15px 35px;
   }
 }
 .main .intro {
@@ -1135,22 +1135,41 @@ img.block {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 24%;
-  height: auto;
-  padding-top: 24%;
+  width: 210px;
+  height: 210px;
+  max-width: 24vw;
+  max-height: 24vw;
+  min-width: 185px;
+  min-height: 185px;
   border-radius: 50%;
   background: linear-gradient(135deg, #f5f5dc, #b2dfdb);
   z-index: 0;
 }
+@media screen and (max-width: 749px) {
+  .main figure::before {
+    width: 195px;
+    height: 195px;
+    max-width: none;
+    max-height: none;
+  }
+}
 .main figure img {
   position: relative;
   z-index: 1;
-  width: 23%;
+  width: 200px;
+  min-width: 185px;
+  max-width: 24vw;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
   background: #FFF;
   padding: 4px;
+}
+@media screen and (max-width: 749px) {
+  .main figure img {
+    width: 185px;
+    max-width: none;
+  }
 }
 .main p {
   font-size: 1.5rem;
@@ -1278,6 +1297,8 @@ img.block {
 .main .timeline li .timeline-content h3 {
   margin: 0 0 5px;
   font-size: 1.1rem;
+  border-bottom: 1px solid #c9c9c9;
+  width: max-content;
 }
 .main .timeline li .timeline-content p {
   margin: 0;
