@@ -566,20 +566,20 @@ img.block {
 }
 .btn.red {
   background: #f9fafc;
-  color: #333333;
+  color: #444444;
   border: 2px solid #f9fafc;
 }
 .btn.red::before {
   content: "";
-  background: #333333;
+  background: #444444;
 }
 .btn.red .folder::after {
-  background: url("data:image/svg+xml;utf-8,<svg fill='%23333333' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 73.8'><title>folder</title><g><g><path d='M90,12H40L28,0H10A10,10,0,0,0,0,10V63.8a10,10,0,0,0,10,10H90a10,10,0,0,0,10-10V22A10,10,0,0,0,90,12Z'/></g></g></svg>");
+  background: url("data:image/svg+xml;utf-8,<svg fill='%23444444' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 73.8'><title>folder</title><g><g><path d='M90,12H40L28,0H10A10,10,0,0,0,0,10V63.8a10,10,0,0,0,10,10H90a10,10,0,0,0,10-10V22A10,10,0,0,0,90,12Z'/></g></g></svg>");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .btn.red .blank::after {
-  background: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='13' height='9' viewBox='0 0 13 9'><path d='M3,0V1h9V6h1V0Z' fill='%23333333'/><rect width='10' height='6' transform='translate(0 3)' fill='%23333333'/></svg>");
+  background: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='13' height='9' viewBox='0 0 13 9'><path d='M3,0V1h9V6h1V0Z' fill='%23444444'/><rect width='10' height='6' transform='translate(0 3)' fill='%23444444'/></svg>");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -1135,8 +1135,8 @@ img.block {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 210px;
-  height: 210px;
+  width: 195px;
+  height: 195px;
   max-width: 24vw;
   max-height: 24vw;
   min-width: 185px;
@@ -1156,7 +1156,7 @@ img.block {
 .main figure img {
   position: relative;
   z-index: 1;
-  width: 200px;
+  width: 180px;
   min-width: 185px;
   max-width: 24vw;
   border-radius: 50%;

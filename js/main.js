@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.remove('active');
     overlay.classList.remove('active');
 
-    // ✨追加：前回の表示要素をリセット
+    //前回の表示要素をリセット
     document.querySelectorAll('.modal-content > div').forEach(div => {
       div.classList.remove('show');
     });
@@ -74,10 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector('.modal-close').addEventListener('click', closeModal);
   overlay.addEventListener('click', closeModal);
 });
-
-
-
-
 
 //CAREER
 document.addEventListener("DOMContentLoaded", () => {
