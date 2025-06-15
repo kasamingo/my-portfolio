@@ -1,135 +1,142 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="笠見 匠希(カサミ ショウキ)の自己紹介サイトです。(2025年4月時点)">
-    <title>自己紹介サイト_笠見匠希</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <meta name="RELEASE_DATE" content="2025-04-00">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-    <div class="loading"></div>
-    <div class="follow"></div>
-    <div class="header">
-      <div class="header_wrap">
-        <nav>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="笠見 匠希(カサミ ショウキ)の自己紹介サイトです。(2025年4月時点)">
+  <title>自己紹介サイト_笠見匠希</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <meta name="RELEASE_DATE" content="2025-04-00">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="loading"></div>
+  <div class="follow"></div>
+  <div class="header">
+    <div class="header_wrap">
+      <nav>
+        <ul>
+          <li><a href="index.html"><img src="img/my-self-introduction.png" alt="Shoki Kasami"></a></li>
+        </ul>
+      </nav>
+      <div class="menu">
+        <!-- ハンバーガーアイコン-->
+        <div class="menu__icon" id="menuToggle"><span></span><span></span><span></span></div>
+        <!-- モーダルメニュー-->
+        <div class="menu__modal" id="menuModal">
           <ul>
-            <li><a href="index.html"><img src="img/my-self-introduction.png" alt="Shoki Kasami"></a></li>
+            <li><a href="#hobby">私の趣味</a></li>
+            <li><a href="#skills">スキル・資格</a></li>
+            <li><a href="#personality">私の性格</a></li>
           </ul>
-        </nav>
-        <div class="menu">
-          <!-- ハンバーガーアイコン-->
-          <div class="menu__icon" id="menuToggle"><span></span><span></span><span></span></div>
-          <!-- モーダルメニュー-->
-          <div class="menu__modal" id="menuModal">
-            <ul>
-              <li><a href="#hobby">私の趣味</a></li>
-              <li><a href="#skills">スキル・資格</a></li>
-              <li><a href="#personality">私の性格</a></li>
-            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg_silver">
+    <div class="wrap1400">
+      <main class="main bg_white">
+        <div class="container">
+          <div class="intro">
+            <h1><img src="img/my-self-introduction.png" alt=""></h1>
+            <figure> <img src="img/icon.png" alt=""></figure>
+            <p class="center name">笠見 匠希hogehoge</p>
+            <p class="furi center">Kasami Shoki</p>
+            <p class="desc m-center fs14 fc">
+              はじめまして。6月よりデザイン部に配属予定の笠見 匠希（かさみ しょうき）です。
+              今は、社内データ基盤の保守運用やETL処理など、バックエンド寄りの業務に従事しています。
+              今回はフロントエンドエンジニアに再挑戦するにあたり、スキルを思い出すきっかけとして、また簡単な自己紹介も兼ねてこのWebページを作成しました。
+              簡素な構成ではありますが、一日でも早くチームに貢献できるよう尽力してまいります。どうぞよろしくお願いいたします。
+            </p>
+          </div>
+          <div class="career">
+            <h2>経歴</h2>
+          </div>
+          <ul class="timeline">
+            <li>
+              <p class="timeline-date fc">2018年4月</p>
+              <div class="timeline-content">
+                <h3 class="fc">地元鳥取のホームセンター勤務</h3>
+                <p class="fc">販売スタッフとして、お客様応対や、品出し、棚卸をしていた。とある日知人から、未経験からエンジニアにならないかと誘いを受ける。</p>
+              </div>
+            </li>
+            <li>
+              <p class="timeline-date fc">2019年1月</p>
+              <div class="timeline-content">
+                <h3 class="fc">エンジニアになるため上京</h3>
+                <p class="fc">最初の現場は、コマンドで各地に設置されたルータへIP追加・削除等の対応。未経験からのスタートでしたが、必死に学んで食らいついていく。。</p>
+              </div>
+            </li>
+            <li>
+              <p class="timeline-date fc">2020年1月</p>
+              <div class="timeline-content">
+                <h3 class="fc">フロントエンドエンジニアとして</h3>
+                <p class="fc">お客様のホームページやLPを制作。思考や要望を形にする楽しさを実感でき、やりがいを感じる。</p>
+              </div>
+            </li>
+            <li>
+              <p class="timeline-date fc">2022年6月 〜 現在</p>
+              <div class="timeline-content">
+                <h3 class="fc">バックエンドエンジニアとして</h3>
+                <p class="fc">社内データ基盤の保守運用に携わる。新システムの導入や、データ処理フローの最適化を目指して業務に取り組む。</p>
+              </div>
+            </li>
+          </ul>
+          <!--ボタン-->
+          <div class="mt10">
+            <div class="flex col3 f-mg20"><a class="btn red rad shadow sss" href="#hobby"><span
+                  class="blank">趣味</span></a><a class="btn red rad shadow" href="#skills"><span
+                  class="blank">スキル・資格</span></a><a class="btn red rad shadow" href="#personality"><span
+                  class="blank">性格</span></a></div>
           </div>
         </div>
+      </main>
+    </div>
+  </div>
+  <div class="modal-overlay" id="modalOverlay"></div>
+  <div class="modal" id="modal">
+    <button class="modal-close">✕</button>
+    <div class="modal-content">
+      <div class="hobby hidden">
+        <h2>趣味</h2>
+        <ul>
+          <li>野球・サッカー</li>
+          <li>ラーメン</li>
+          <li>神社巡り</li>
+          <li>自然豊かな場所に行くこと</li>
+        </ul>
+      </div>
+      <div class="skills hidden">
+        <h2>スキル</h2>
+        <ul>
+          <li>HTML（pug） / CSS（scss）</li>
+          <li>JavaScript（jQuery, Vue）</li>
+          <li>Python / SQL / PHP</li>
+          <li>AWS（S3, Glue, Redshift）</li>
+        </ul>
+        <h2>資格</h2>
+        <ul>
+          <li>ITパスポート</li>
+          <li>AWS認定資格 CLF、SAA、SAP </li>
+          <li>第一種自動車免許</li>
+        </ul>
+      </div>
+      <div class="personality hidden">
+        <h2>私の性格</h2>
+        <p></p>
+        ＜長所＞<br>強い共感力と他者への思いやりを持って行動します。また明確なビジョンを持って計画通り忠実に遂行します。<br>＜短所＞<br>心配性がちなところがあり、時折慎重になりすぎたりします。<br><br>※16の性格診断ではENFJ-Tという結果が出ました
       </div>
     </div>
-    <div class="bg_silver">
-      <div class="wrap1400">
-        <main class="main bg_white">
-          <div class="container">
-            <div class="intro">
-              <h1><img src="img/my-self-introduction.png" alt=""></h1>
-              <figure> <img src="img/icon.png" alt=""></figure>
-              <p class="center name">笠見 匠希</p>
-              <p class="furi center">Kasami Shoki</p>
-              <p class="desc m-center fs14 fc">
-                はじめまして。6月よりデザイン部に配属予定の笠見 匠希（かさみ しょうき）です。
-                今は、社内データ基盤の保守運用やETL処理など、バックエンド寄りの業務に従事しています。
-                今回はフロントエンドエンジニアに再挑戦するにあたり、スキルを思い出すきっかけとして、また簡単な自己紹介も兼ねてこのWebページを作成しました。
-                簡素な構成ではありますが、一日でも早くチームに貢献できるよう尽力してまいります。どうぞよろしくお願いいたします。
-              </p>
-            </div>
-            <div class="career">
-              <h2>経歴</h2>
-            </div>
-            <ul class="timeline">
-              <li>
-                <p class="timeline-date fc">2018年4月</p>
-                <div class="timeline-content">
-                  <h3 class="fc">地元鳥取のホームセンター勤務</h3>
-                  <p class="fc">販売スタッフとして、お客様応対や、品出し、棚卸をしていた。とある日知人から、未経験からエンジニアにならないかと誘いを受ける。</p>
-                </div>
-              </li>
-              <li>
-                <p class="timeline-date fc">2019年1月</p>
-                <div class="timeline-content">
-                  <h3 class="fc">エンジニアになるため上京</h3>
-                  <p class="fc">最初の現場は、コマンドで各地に設置されたルータへIP追加・削除等の対応。未経験からのスタートでしたが、必死に学んで食らいついていく。。</p>
-                </div>
-              </li>
-              <li>
-                <p class="timeline-date fc">2020年1月</p>
-                <div class="timeline-content">
-                  <h3 class="fc">フロントエンドエンジニアとして</h3>
-                  <p class="fc">お客様のホームページやLPを制作。思考や要望を形にする楽しさを実感でき、やりがいを感じる。</p>
-                </div>
-              </li>
-              <li>
-                <p class="timeline-date fc">2022年6月 〜 現在</p>
-                <div class="timeline-content">
-                  <h3 class="fc">バックエンドエンジニアとして</h3>
-                  <p class="fc">社内データ基盤の保守運用に携わる。新システムの導入や、データ処理フローの最適化を目指して業務に取り組む。</p>
-                </div>
-              </li>
-            </ul>
-            <!--ボタン-->
-            <div class="mt10">
-              <div class="flex col3 f-mg20"><a class="btn red rad shadow sss" href="#hobby"><span class="blank">趣味</span></a><a class="btn red rad shadow" href="#skills"><span class="blank">スキル・資格</span></a><a class="btn red rad shadow" href="#personality"><span class="blank">性格</span></a></div>
-            </div>
-          </div>
-        </main>
-      </div>
-    </div>
-    <div class="modal-overlay" id="modalOverlay"></div>
-    <div class="modal" id="modal">
-      <button class="modal-close">✕</button>
-      <div class="modal-content">
-        <div class="hobby hidden">
-          <h2>趣味</h2>
-          <ul>
-            <li>野球・サッカー</li>
-            <li>ラーメン</li>
-            <li>神社巡り</li>
-            <li>自然豊かな場所に行くこと</li>
-          </ul>
-        </div>
-        <div class="skills hidden">
-          <h2>スキル</h2>
-          <ul>
-            <li>HTML（pug） / CSS（scss）</li>
-            <li>JavaScript（jQuery, Vue）</li>
-            <li>Python / SQL / PHP</li>
-            <li>AWS（S3, Glue, Redshift）</li>
-          </ul>
-          <h2>資格</h2>
-          <ul>
-            <li>ITパスポート</li>
-            <li>AWS認定資格 CLF、SAA、SAP </li>
-            <li>第一種自動車免許</li>
-          </ul>
-        </div>
-        <div class="personality hidden">
-          <h2>私の性格</h2>
-          <p></p>＜長所＞<br>強い共感力と他者への思いやりを持って行動します。また明確なビジョンを持って計画通り忠実に遂行します。<br>＜短所＞<br>心配性がちなところがあり、時折慎重になりすぎたりします。<br><br>※16の性格診断ではENFJ-Tという結果が出ました
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <p class="footer_credit_copy center">©2025 SelfIntroduction - Shoki Kasami</p>
-    </div>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+  </div>
+  <div class="footer">
+    <p class="footer_credit_copy center">©2025 SelfIntroduction - Shoki Kasami</p>
+  </div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>
